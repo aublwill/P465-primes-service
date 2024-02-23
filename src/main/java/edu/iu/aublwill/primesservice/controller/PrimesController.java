@@ -1,15 +1,17 @@
 package edu.iu.aublwill.primesservice.controller;
 
 import edu.iu.aublwill.primesservice.service.IPrimesService;
+import edu.iu.aublwill.primesservice.service.PrimesService;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
 @RequestMapping("/primes")
 public class PrimesController {
-    IPrimesService primesService;
+    PrimesService primesService;
 
-    public PrimesController(IPrimesService primesService){
+    public PrimesController(PrimesService primesService){
         this.primesService = primesService;
     }
 
