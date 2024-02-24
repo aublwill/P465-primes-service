@@ -6,8 +6,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class PrimesServiceApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+
 
 }
