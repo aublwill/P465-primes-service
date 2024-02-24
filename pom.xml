@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.iu.aublwill</groupId>
-	<artifactId>primes-service</artifactId>
+	<artifactId>primesservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>primes-service</name>
 	<description>Providing primality check and prime factorization</description>
