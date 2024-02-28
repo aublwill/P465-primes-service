@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17
 WORKDIR /home
-COPY ./target/primesservice-0.0.1-SNAPSHOT.jar primesservice.jar
+COPY ./target/primes-service-0.0.1-SNAPSHOT.jar primes-service.jar
 
-ENTRYPOINT ["java", "-jar", "primesservice.jar"]
+ENTRYPOINT ["java", "-jar", "primes-service.jar"]
