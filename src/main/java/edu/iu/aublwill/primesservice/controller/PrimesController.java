@@ -1,8 +1,6 @@
 package edu.iu.aublwill.primesservice.controller;
 
 import edu.iu.aublwill.primesservice.service.IPrimesService;
-import edu.iu.aublwill.primesservice.service.PrimesService;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
